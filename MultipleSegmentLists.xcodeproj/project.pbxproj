@@ -13,6 +13,8 @@
 		FDF88DE9270906770057BD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF88DE7270906770057BD13 /* Main.storyboard */; };
 		FDF88DEB2709067A0057BD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF88DEA2709067A0057BD13 /* Assets.xcassets */; };
 		FDF88DEE2709067A0057BD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF88DEC2709067A0057BD13 /* LaunchScreen.storyboard */; };
+		FDF88DF7270908170057BD13 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF88DF6270908170057BD13 /* DataModel.swift */; };
+		FDF88DFA270908320057BD13 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF88DF9270908320057BD13 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FDF88DEA2709067A0057BD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF88DED2709067A0057BD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF88DEF2709067A0057BD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF88DF6270908170057BD13 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		FDF88DF9270908320057BD13 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FDF88DEA2709067A0057BD13 /* Assets.xcassets */,
 				FDF88DEC2709067A0057BD13 /* LaunchScreen.storyboard */,
 				FDF88DEF2709067A0057BD13 /* Info.plist */,
+				FDF88DF6270908170057BD13 /* DataModel.swift */,
+				FDF88DF9270908320057BD13 /* TableViewCell.swift */,
 			);
 			path = MultipleSegmentLists;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF88DFA270908320057BD13 /* TableViewCell.swift in Sources */,
 				FDF88DE6270906770057BD13 /* ViewController.swift in Sources */,
+				FDF88DF7270908170057BD13 /* DataModel.swift in Sources */,
 				FDF88DE2270906770057BD13 /* AppDelegate.swift in Sources */,
 				FDF88DE4270906770057BD13 /* SceneDelegate.swift in Sources */,
 			);
